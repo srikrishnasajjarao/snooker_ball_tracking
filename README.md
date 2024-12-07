@@ -18,8 +18,10 @@ This project tracks a yellow snooker ball in a video using computer vision techn
 ## Installation
 
 1. Clone this repository to your local machine
+![Folder Structure](venv/step1.png)  
 2. Set up a virtual environment (recommended)
+![Folder Structure](venv/step2.png)  
 3. Install dependencies using pip
-   pip install -r requirements.txt
+![Folder Structure](venv/step3.png)  
 
 
