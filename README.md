@@ -25,20 +25,27 @@ This project tracks a yellow snooker ball in a video using computer vision techn
 ![Folder Structure](venv/step3.png)  
 
 ## Usage
-1. Place the input video:
-Ensure your input video (input_video.mp4) is placed in the videos/ folder.
+1. ##### Place the input video:
+Ensure the input video (input_video.mp4) is placed in the videos/ folder.
 
-2. Run the program:
-Execute the main script to process the video:
+2. ##### Run the program:
+Execute the main script to process the video.
 
-3. Output video:
+3. ##### Output video:
 The processed video with tracking overlays will be saved as output_video.mp4 in the videos/ folder.
 
-4. View the output:
+4. ##### View the output:
 The program will display the live tracking progress in a window. Press q to quit early.
 
 ## How It Works
-1. HSV Masking: The program converts the video frames to HSV color space and creates a mask for detecting yellow objects.
-2. Contour Detection: It identifies the largest contour matching the yellow color and assumes it to be the ball.
-3. Visualization: The program draws a bounding circle and a rectangle around the ball and overlays the ball's trajectory path on the frames.
-4. Output: The annotated frames are saved to an output video file.
+1. ##### HSV Masking:
+   The program converts the video frames to HSV color space and creates a mask for detecting yellow objects.
+   
+2. ##### Contour Detection:
+   It identifies the largest contour matching the yellow color and assumes it to be the ball.
+   
+3. ##### Visualization:
+   The program draws a bounding circle and a rectangle around the ball and overlays the ball's trajectory path on the frames.
+   
+4. ##### Output:
+   The annotated frames are saved to an output video file.
