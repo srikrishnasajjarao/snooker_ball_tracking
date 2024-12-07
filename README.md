@@ -15,3 +15,11 @@ This project tracks a yellow snooker ball in a video using computer vision techn
 1. Python 3.9 or higher installed on your system.
 2. Virtual environment installed (optional but recommended).
 
+## Installation
+
+1. Clone this repository to your local machine
+2. Set up a virtual environment (recommended)
+3. Install dependencies using pip
+   pip install -r requirements.txt
+
+
