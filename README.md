@@ -24,4 +24,15 @@ This project tracks a yellow snooker ball in a video using computer vision techn
 3. Install dependencies using pip
 ![Folder Structure](venv/step3.png)  
 
+## Usage
+1. Place the input video:
+Ensure your input video (input_video.mp4) is placed in the videos/ folder.
 
+2. Run the program:
+Execute the main script to process the video:
+
+3. Output video:
+The processed video with tracking overlays will be saved as output_video.mp4 in the videos/ folder.
+
+4. View the output:
+The program will display the live tracking progress in a window. Press q to quit early.
