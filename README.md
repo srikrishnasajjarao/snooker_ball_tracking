@@ -36,3 +36,9 @@ The processed video with tracking overlays will be saved as output_video.mp4 in 
 
 4. View the output:
 The program will display the live tracking progress in a window. Press q to quit early.
+
+## How It Works
+1. HSV Masking: The program converts the video frames to HSV color space and creates a mask for detecting yellow objects.
+2. Contour Detection: It identifies the largest contour matching the yellow color and assumes it to be the ball.
+3. Visualization: The program draws a bounding circle and a rectangle around the ball and overlays the ball's trajectory path on the frames.
+4. Output: The annotated frames are saved to an output video file.
